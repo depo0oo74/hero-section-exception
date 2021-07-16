@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Hero section</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- start main -->
+        <main class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center text-center">
+                        <p>
+                            <span class="border-r"><i class="fas fa-envelope"></i> <a href="#">INFO@IT-RAYS.COM</a></span>
+                            <span><i class="fas fa-phone"></i> CALL US: +1 (888) 000-0000</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 text-right align-self-center text-center">
+                        <p>
+                            <span class="right-item border-r"><i class="fas fa-shopping-cart"></i> <a href="#">0 ITEM(s) - $0.00</a></span>
+                            <span class="right-item border-r"><i class="fas fa-sitemap"></i> <a href="#">SITE MAP</a></span>
+                            <span class="right-item border-r"><i class="fas fa-user"></i> <a href="#">REGISTER</a></span>
+                            <span class="right-item"><i class="fas fa-unlock"></i> <a href="#">LOGIN</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- end main -->
+        <!-- start nav -->
+        <nav class="nav" id="nav">
+            <div class="container">
+                <a href="#" class="btn">
+                    <img class="img-fluid" src="images/logo.png">
+                </a>
+                <ul>
+                    <li>
+                        <a class="btn active border-r first-drop" href="#">
+                            <i class="fas fa-home"></i> <br>
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn border-r">
+                            <i class="fas fa-key"></i> <br>
+                            FEATURES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn border-r">
+                            <i class="fas fa-gift"></i> <br>
+                            PORTFOLIO
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn border-r">
+                            <i class="fas fa-copy"></i> <br>
+                            PAGES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn border-r">
+                            <i class="fas fa-shopping-bag"></i> <br>
+                            SHOP
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn border-r">
+                            <i class="fas fa-book"></i> <br>
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn">
+                            <i class="fas fa-feather-alt"></i> <br>
+                            SHORTCODES
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-search"></i>
+                    </li>
+                </ul>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">HOME</a>
+                    <a href="#">FEATURES</a>
+                    <a href="#">PORTFOLIO</a>
+                    <a href="#">SHOP</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">SHORTCODES</a>
+                    <i class="fas fa-search"></i>
+                </div>
+                <span onclick="openNav()" class="toggle-button">
+                    <div class="menu-button"></div>
+                    <div class="menu-button"></div>
+                    <div class="menu-button"></div>
+                </span>
+            </div>
+        </nav>
+        <!-- end nav --> 
+        <!-- start skew line -->
+        <section class="skew-line"></section>
+        <!-- end skew line-->
+        <!-- start header -->
+        <header class="header">
+            <div class="container-fluid parent">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2500">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/slider1-1.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slider1-2.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slider1-3.png" class="d-block w-100">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+        <!-- js files -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/proper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script>
+            // fixed navbar 
+            $(window).scroll(function () {
+                if(scrollY > 18) {
+                    $('.nav').css('top', '0px');
+                    $('.nav').css('background', 'white');
+                    $('.nav').css('borderBottom', '1px solid #ddd');
+                    $('.nav').css('height', '73px');
+                    $('.nav').css('overflow-y', 'hidden');
+                } else {
+                    $('.nav').css('top', "auto");
+                    $('.nav').css('background', 'none');
+                    $('.nav').css('borderBottom', 'none');
+                    $('.nav').css('height', 'auto');
+                    $('.nav').css('overflow-y', 'visible');
+                }
+            })
+
+
+            // mobile nav
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </body>
+</html>
